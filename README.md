@@ -32,9 +32,6 @@ Run Spark jobs for batch processing.
 ```bash
 spark-submit --class your.spark.job.MainClass path/to/
  
-SAI APP
-Certainly! Continuing from where we left off:
- 
 Plain Text
 spark-submit --class your.spark.job.MainClass path/to/your-spark-job.jar
 Copy
