@@ -49,7 +49,6 @@ spark-submit --master yarn --py-files test.py --conf spark.yarn.queue=your_queue
 --conf spark.driver.cores=1
 --conf
 
-SAI APP
 To continue with the testing and execution of the provided code, you'll need to have a Spark cluster set up and configured to interact with HDFS and Hive.
 
 After completing the steps mentioned earlier, you should be able to see the transformed data saved to the specified HDFS location and the Hive table created with the specified schema.
